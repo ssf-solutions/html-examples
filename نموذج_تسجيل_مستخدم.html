@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <title>تسجيل مستخدم</title>
+  </head>
+  <body>
+
+    <center>
+      <h1>📋 نموذج تسجيل مستخدم</h1>
+      <p>املأ البيانات التالية بدقة، جميع الحقول مطلوبة.</p>
+    </center>
+
+    <table border="1" width="40%" align="center" cellpadding="6" cellspacing="0">
+      <form method="get">
+        <tr>
+          <td><label>الاسم الكامل:</label></td>
+          <td><input type="text" name="fullname" required></td>
+        </tr>
+        <tr>
+          <td><label>البريد الإلكتروني:</label></td>
+          <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+          <td><label>رقم الهاتف:</label></td>
+          <td><input type="tel" name="phone" required></td>
+        </tr>
+        <tr>
+          <td><label>الدولة:</label></td>
+          <td>
+            <select name="country" required>
+              <option value="">-- اختر --</option>
+              <option value="مصر">مصر</option>
+              <option value="السعودية">السعودية</option>
+              <option value="الإمارات">الإمارات</option>
+              <option value="دولة أخرى">أخرى</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label>النوع:</label></td>
+          <td>
+            <input type="radio" name="gender" value="ذكر"> ذكر
+            <input type="radio" name="gender" value="أنثى"> أنثى
+          </td>
+        </tr>
+        <tr>
+          <td><label>كلمة المرور:</label></td>
+          <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="تسجيل الدخول">
+            <input type="reset" value="مسح البيانات">
+          </td>
+        </tr>
+      </form>
+    </table>
+
+    <br>
+    <center>
+      <hr width="40%">
+      <p><i>© SSF – جميع الحقوق محفوظة 2025</i></p>
+    </center>
+
+  </body>
+</html> 
